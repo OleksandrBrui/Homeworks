@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'LatoRegular';
+    src: url('../fonts/LatoRegular.eot');
+    src: url('../fonts/LatoRegular.eot') format('embedded-opentype'),
+         url('../fonts/LatoRegular.woff2') format('woff2'),
+         url('../fonts/LatoRegular.woff') format('woff'),
+         url('../fonts/LatoRegular.ttf') format('truetype'),
+         url('../fonts/LatoRegular.svg#LatoRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'PlayfairDisplayRegular';
+    src: url('../fonts/PlayfairDisplayRegular.eot');
+    src: url('../fonts/PlayfairDisplayRegular.eot') format('embedded-opentype'),
+         url('../fonts/PlayfairDisplayRegular.woff2') format('woff2'),
+         url('../fonts/PlayfairDisplayRegular.woff') format('woff'),
+         url('../fonts/PlayfairDisplayRegular.ttf') format('truetype'),
+         url('../fonts/PlayfairDisplayRegular.svg#PlayfairDisplayRegular') format('svg');
+}
+
+body {
+    font-family: 'LatoRegular', Arial, Helvetica, serif, sans-serif;
+
+}
+
+.main {
+    width: 90%;
+    margin: 130px 100px;
+    padding: 140px;
+    box-shadow: 0 50px 80px rgba(218, 214, 214, 0.6),
+    50px 0 80px rgba(218, 214, 214, 0.6),
+    0 -50px 80px rgba(218, 214, 214, 0.6),
+    -50px 0 80px rgba(218, 214, 214, 0.6);
+}
+
+.article h1 {
+    font-family: 'PlayfairDisplayRegular', serif;
+    padding-bottom: 40px;
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.article p.top {
+    font-family: 'LatoRegular', sans-serif;
+    line-height: 34px;
+    font-size: 18px;
+    font-weight: 300;
+    vertical-align: top;
+}
+
+p.top::first-letter {
+    font-family: 'PlayfairDisplayRegular', serif;
+    float: left;
+    font-size: 110px;
+    margin: 25px 10px 25px 0px;
+    color: #000;
+}
+
+p {
+    font-family: 'LatoRegular', sans-serif;
+    margin-bottom: 50px;
+    line-height: 34px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #b1b1b1;
+}
+
+p.pre-bottom {
+    margin-bottom: -50px;
+}
+
+blockquote {
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+    color: #b1b1b1;
+}
+
+blockquote span.quote {
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+
+button {
+    width: 260px;
+    height: 70px;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #fff;
+    border: 1px solid orange;
+}
+
+button a {
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: orange;
+}
